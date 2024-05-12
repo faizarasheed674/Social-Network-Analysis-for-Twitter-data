@@ -1,0 +1,25 @@
+Dataset
+Twitter's social network qualities allow access to regionally and personally relevant
+information, while its information network properties promote global information contagion.
+Twitter's unique properties make it especially beneficial for effective information transmission.
+During the semi-final encounter between Pakistan and Australia in the T20 World Cup,
+millions of Twitter users shared content relating to the match with varying opinions. The data
+collection in this paper is derived from the Twitter Search API v2 endpoint. The dataset items
+were acquired from Twitter between oct 20th and Nov 17th, 2021. All the files were in csv
+format. The networks are provided in the form of edge lists. The name of the file tells whether
+the network is directed or undirected. The dataset consists of following items.
+Annotations Undirected data set contained more than sixteen thousand rows of twitter data
+related to entities e.g., place, person, or organization. Hashtags Undirected data set consists of
+approximately thirty-eight thousand entries of hashtags during world cup related to Pakistan vs
+Australia semi final and entities related to Pakistan team. Mentions Directed data set contains
+more than forty-one thousand rows with twitter user ids. Screen name for twitter user id
+extracted using https://tweeterid.com/. Mention directed data set contains more than eighty-six
+hundred tweeter user id. Replied to Directed network data set contains twenty-seven thousand
+rows with conversation ids of relevant tweet. Json file that is provided with tweets contains the
+tweet conversation id. Tweet and replies to tweet both are given in json file. The vital
+information can be extracted using author ids related to tweets to get more significant analysis.
+Retweeted Directed consist of more than forty thousand nodes. The nodes are conversation id
+for tweet. The labels for each conversation id can be extracted using JSON file retweet
+information. URL Undirected data set contained URLS that are placed in same tweet. For
+example, and image and a video link both are pasted in same tweet, then there will be an edge
+between image URL and video URL.
